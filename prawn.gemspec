@@ -1,4 +1,6 @@
-PRAWN_VERSION = "1.0.0.rc1"
+unless defined?(PRAWN_VERSION)
+  PRAWN_VERSION = "1.0.0.rc1"
+end
 
 Gem::Specification.new do |spec|
   spec.name = "prawn"
