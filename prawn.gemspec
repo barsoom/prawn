@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
                        '--main'  << 'README.md' << '-q'
   spec.authors = ["Gregory Brown","Brad Ediger","Daniel Nelson","Jonathan Greenberg","James Healy"]
   spec.email = ["gregory.t.brown@gmail.com","brad@bradediger.com","dnelson@bluejade.com","greenberg@entryway.net","jimmy@deefa.com"]
-  spec.rubyforge_project = "prawn"
   spec.add_dependency('pdf-reader', '>=0.9.0')
   spec.add_dependency('ttfunk', '~>1.0.3')
   spec.add_development_dependency('pdf-inspector', '~> 1.0.1')
